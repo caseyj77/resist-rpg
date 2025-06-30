@@ -1,0 +1,21 @@
+/* src/assets/main.css */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
