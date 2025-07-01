@@ -1,6 +1,28 @@
 // tools.js
 export const tools = [
-  { name: 'Flint', use: 'firestarting', durability: 5 },
-  { name: 'Hammer', use: 'construction', durability: 20 },
-  { name: 'Hoe', use: 'gardening', durability: 18 },
-];
+    {"name": "Lockpick Set", "function": "Entry/Access", "durability": 25, "classFit": ["Scavenger", "Analyst"]},
+    {"name": "Multi-Scanner", "function": "Detection/Scan", "durability": 30, "classFit": ["Analyst"]},
+    {"name": "Portable Welder", "function": "Repair/Access", "durability": 20, "classFit": ["Scavenger"]},
+    {"name": "Signal Booster", "function": "Communication", "durability": 15, "classFit": ["Analyst"]},
+    {"name": "Medical Kit", "function": "Healing", "durability": 10, "classFit": ["All"]},
+    {"name": "Wire Spool & Cutter", "function": "Repair/Hack", "durability": 20, "classFit": ["Scavenger", "Analyst"]},
+    {"name": "Hacking Device", "function": "Security Override", "durability": 15, "classFit": ["Analyst"]},
+    {"name": "Crafting Bench", "function": "Crafting", "durability": 25, "classFit": ["Scavenger"]},
+    {"name": "Decoy Beacon", "function": "Distraction", "durability": 10, "classFit": ["Analyst", "Enforcer"]},
+    {"name": "Smoke Canister", "function": "Concealment", "durability": 5, "classFit": ["Scavenger"]},
+    {"name": "Portable Furnace", "function": "Smelting", "durability": 20, "classFit": ["Scavenger"]},
+    {"name": "Recon Drone", "function": "Surveillance", "durability": 15, "classFit": ["Analyst"]},
+    {"name": "Climbing Kit", "function": "Navigation", "durability": 20, "classFit": ["Scavenger"]},
+    {"name": "Trap Kit", "function": "Ambush Setup", "durability": 15, "classFit": ["Scavenger"]},
+    {"name": "EMP Toolkit", "function": "Disable Electronics", "durability": 10, "classFit": ["Analyst"]},
+    {"name": "Shield Generator", "function": "Defense", "durability": 15, "classFit": ["Analyst", "Enforcer"]},
+    {"name": "Motion Sensor", "function": "Alert System", "durability": 20, "classFit": ["Analyst"]},
+    {"name": "Power Pack", "function": "Recharge", "durability": 20, "classFit": ["Scavenger", "Analyst"]},
+    {"name": "Camouflage Cloak", "function": "Stealth", "durability": 15, "classFit": ["Scavenger"]},
+    {"name": "Geiger Counter", "function": "Environmental Scan", "durability": 30, "classFit": ["All"]},
+    {"name": "Soil Analyzer", "function": "Resource Identification", "durability": 20, "classFit": ["Analyst"]},
+    {"name": "Sonic Screwdriver", "function": "Tech Tool", "durability": 25, "classFit": ["Analyst"]},
+    {"name": "Survival Manual Chip", "function": "Guide Boost", "durability": 50, "classFit": ["Scavenger"]},
+    {"name": "Exosuit Module", "function": "Augment Strength", "durability": 10, "classFit": ["Enforcer"]},
+    {"name": "Audio Log Recorder", "function": "Lore Storage", "durability": 20, "classFit": ["Analyst"]}
+]

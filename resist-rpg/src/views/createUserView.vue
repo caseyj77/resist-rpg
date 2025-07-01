@@ -10,14 +10,13 @@ const canvasHeight = 720
 
 const playerName = ref('')
 const selectedRole = ref('')
-const selectedWeapon = ref('')
 
 const roles = ['Scavenger', 'Enforcer', 'Analyst'] //this needs to pull from the list of "classes from baseStats.js file"
-const weapons = ['Pipe', 'Slingshot', 'Wrench']
+
 
 const startGame = () => {
-  if (playerName.value && selectedRole.value && selectedWeapon.value) {
-    router.push('/play')
+  if (playerName.value && selectedRole.value) {
+    router.push('/gamePlay')
   } else {
     alert('Please complete all fields.')
   }
@@ -73,15 +72,7 @@ onMounted(() => {
             <option v-for="role in roles" :key="role">{{ role }}</option>
           </select>
         </div>
-
-        <div class="field">
-          <label>Starting Weapon</label>
-          <select v-model="selectedWeapon">
-            <option disabled value="">-- Choose a weapon --</option>
-            <option v-for="weapon in weapons" :key="weapon">{{ weapon }}</option>
-          </select>
-        </div>
-
+        
         <button @click="startGame">Continue</button>
       </div>
     </div>

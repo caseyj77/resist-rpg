@@ -1,6 +1,28 @@
 // weapons.js
 export const weapons = [
-  { name: 'Slingshot', damage: 4, range: 10, durability: 20 },
-  { name: 'Bow', damage: 8, range: 25, durability: 30 },
-  { name: 'Pipe Rifle', damage: 12, range: 40, durability: 15 },
-];
+    {"name": "Pipe Wrench", "damage": 6, "range": 1, "durability": 30},
+    {"name": "Nail Bat", "damage": 8, "range": 2, "durability": 25},
+    {"name": "Slingshot", "damage": 4, "range": 10, "durability": 20},
+    {"name": "Bolt Gun", "damage": 12, "range": 15, "durability": 15},
+    {"name": "Scrap Axe", "damage": 10, "range": 2, "durability": 20},
+    {"name": "Combat Knife", "damage": 7, "range": 1, "durability": 35},
+    {"name": "Telescopic Baton", "damage": 6, "range": 2, "durability": 30},
+    {"name": "Electric Prod", "damage": 5, "range": 1, "durability": 25},
+    {"name": "Rebar Spear", "damage": 9, "range": 3, "durability": 20},
+    {"name": "Pipe Shotgun", "damage": 14, "range": 8, "durability": 10},
+    {"name": "Shock Gauntlet", "damage": 6, "range": 1, "durability": 30},
+    {"name": "Crossbow", "damage": 11, "range": 20, "durability": 25},
+    {"name": "Sawblade Launcher", "damage": 13, "range": 12, "durability": 15},
+    {"name": "Riot Shield", "damage": 2, "range": 1, "durability": 40},
+    {"name": "Pneumatic Hammer", "damage": 12, "range": 1, "durability": 20},
+    {"name": "Molotov Cocktail", "damage": 10, "range": 5, "durability": 1},
+    {"name": "EMP Grenade", "damage": 0, "range": 5, "durability": 1},
+    {"name": "Coil Gun", "damage": 15, "range": 25, "durability": 15},
+    {"name": "Acid Vial", "damage": 6, "range": 4, "durability": 1},
+    {"name": "Gas-powered Harpoon", "damage": 13, "range": 10, "durability": 15},
+    {"name": "Thermite Lance", "damage": 14, "range": 1, "durability": 10},
+    {"name": "Shard Bomb", "damage": 12, "range": 4, "durability": 1},
+    {"name": "Taser Dart Pistol", "damage": 5, "range": 6, "durability": 20},
+    {"name": "Hydraulic Fist", "damage": 11, "range": 1, "durability": 25},
+    {"name": "Pressure Cannon", "damage": 10, "range": 12, "durability": 10}
+]
