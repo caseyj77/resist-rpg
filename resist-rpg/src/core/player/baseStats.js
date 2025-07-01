@@ -17,3 +17,7 @@ export const initialStats = {
   },
 };
 
+const userClasses = {
+  class: className,
+  description: 'description of each class'
+} 

@@ -49,7 +49,7 @@ onMounted(() => {
 })
 
 const startGame = () => {
-  router.push('/create')
+  router.push('/createUser')
 }
 </script>
 
